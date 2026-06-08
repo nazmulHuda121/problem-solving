@@ -58,3 +58,20 @@ function toFahrenheit(c) {
 console.log(toFahrenheit(0));
 
 console.log(`==================== ### ====================`);
+
+// Problem 5: Check Positive, Negative or Zero  [Easy]
+// Description: Write a function checkSign(n) that returns 'positive', 'negative', or 'zero' based on the value of n.
+// Example:
+// Input: -5  → Output: 'negative'Input: 0   → Output: 'zero'
+// Hint: Use if-else if-else statements.
+
+function checkSign(n) {
+  if (n > 0) {
+    return 'Positive';
+  } else if (n < 0) {
+    return 'Negative';
+  } else {
+    return 'Zero';
+  }
+}
+console.log(checkSign(0));
