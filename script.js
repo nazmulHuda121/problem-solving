@@ -12,5 +12,27 @@ function swaps(a, b) {
 
   return [a, b];
 }
+console.log(swaps(5, 10));
 const result = swaps(5, 10);
 console.log(`The swap result is a = ${result[0]} and b = ${result[1]}`);
+
+console.log(`==================== ### ====================`);
+
+// Problem 2: Check Even or Odd  [Easy]
+// Description: Write a function isEven(n) that returns true if a number is even, and false if it is odd.
+// Example:
+// Input: 4  → Output: true Input: 7  → Output: false
+// Hint: Use the modulus (%) operator.
+
+function isEven(n) {
+  return n % 2 === 0;
+}
+console.log(isEven(50));
+
+console.log(`==================== ### ====================`);
+
+// Problem 3: Find the Largest of Three Numbers  [Easy]
+// Description: Write a function largest(a, b, c) that returns the largest of three numbers.
+// Example:
+// Input: 3, 7, 5  → Output: 7
+// Hint: Use Math.max() or if-else conditions.
