@@ -74,4 +74,4 @@ function checkSign(n) {
     return 'Zero';
   }
 }
-console.log(checkSign(0));
+console.log(checkSign(-23));
