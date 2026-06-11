@@ -12,3 +12,18 @@ const sumArray = (arr) => {
   console.log(count);
 };
 sumArray([1, 5, 6, 2, 33, 8]);
+
+console.log(`====================== ### ======================`);
+
+// Problem 12: Find Maximum Value in Array  [Easy]
+// Description: Write a function findMax(arr) that returns the largest number in an array without using Math.max().
+// Example:
+// Input: [3, 1, 7, 2, 9]  → Output: 9
+// Hint: Loop through and track the largest value found.
+
+const findMax = (arr) => {
+  const maxValue = Math.max(...arr);
+  return maxValue;
+};
+
+console.log(findMax([4, 99, 23, 1, 76, 332, 0, 6, 43]));
