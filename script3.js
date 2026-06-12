@@ -36,4 +36,9 @@ console.log(`====================== ### ======================`);
 // Input: [1, 2, 2, 3, 3, 4]  → Output: [1, 2, 3, 4]
 // Hint: Use Set or filter() with indexOf().
 
-const removeDuplicates = (arr) => {};
+const removeDuplicates = (arr) => {
+  const newArray = new Set(arr);
+  const finalArray = [...newArray];
+  return finalArray;
+};
+console.log(removeDuplicates([1, 1, 5, 3, 2, 6]));
