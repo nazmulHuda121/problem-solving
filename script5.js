@@ -13,3 +13,23 @@ const factorial = (n) => {
   return n * factorial(n - 1);
 };
 console.log(factorial(7));
+
+console.log(`========================= ### =========================`);
+
+// Problem 22: Fibonacci Sequence  [Easy]
+// Description: Write a function fibonacci(n) that returns the nth number in the Fibonacci sequence.
+// Example:
+// Input: 6  → Output: 8 (0,1,1,2,3,5,8...)
+// Hint: Try both iterative and recursive approaches.
+
+const fibonacci = (n) => {
+  if (n == 1) return 0;
+
+  if (n == 2) return 1;
+
+  return fibonacci(n - 1) + fibonacci(n - 2);
+};
+
+console.log(fibonacci(5));
+console.log(fibonacci(8));
+console.log(fibonacci(6));
