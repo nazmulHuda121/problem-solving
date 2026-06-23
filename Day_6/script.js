@@ -4,7 +4,7 @@
 // const user = {firstName:'Sara', lastName:'Khan', age:25};// Extract: name='Sara', lastName='Khan', age=25
 // Hint: Use: const { firstName: name, lastName, age } = user;
 
-const user = (fName, lName, age) => {
+const user2 = (fName, lName, age) => {
   return {
     fName,
     lName,
@@ -12,4 +12,14 @@ const user = (fName, lName, age) => {
   };
 };
 
-console.log(user('nazmul', 'huda', 35));
+console.log(user2('nazmul', 'huda', 35));
+
+const user = {
+  firstName: 'Nazmul',
+  lastName: 'khan',
+  age: 35,
+};
+
+const { firstName: name, lastName, age } = user;
+
+console.log(`My Name is ${name} ${lastName} & age is ${age}`);
