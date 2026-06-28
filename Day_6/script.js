@@ -47,5 +47,7 @@ console.log(`============================ ### ============================`);
 // Hint: Use new Promise with setTimeout inside.
 
 const delay = (ms) => {
-  function run() {}
+  setTimeout(3000);
+  console.log('first');
 };
+delay();
